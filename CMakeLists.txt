@@ -7,6 +7,9 @@ set(SOURCES src/Allocator.cpp
    	src/StackAllocator
    	src/PoolAllocator
    	src/FreeListAllocator.cpp
+	src/BuddyAllocator.cpp
+	src/FreeListAllocatorRB.cpp
+	src/SlabAllocator.cpp
    	src/Benchmark.cpp 
 	src/main.cpp)
 
